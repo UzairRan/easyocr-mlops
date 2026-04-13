@@ -4,7 +4,8 @@ data:
   processed_dir: "data/processed"
 
 ocr:
-  languages: ["en", "hi", "es", "ar", "bn", "pt", "ru", "ja", "de", "ko", "fr", "tr", "ur", "it", "vi", "ta", "te", "mr", "kn"]  # EasyOCR language list
+  # languages: ["en", "hi", "es", "ar", "bn", "pt", "ru", "ja", "de", "ko", "fr", "tr", "ur", "it", "vi", "ta", "te", "mr", "kn"]  # EasyOCR language list
+  languages: ["en"] 
   gpu: false                            # Set true if you have CUDA
   preprocessing: "none"                 # "none", "grayscale", "threshold"
 
