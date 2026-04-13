@@ -35,6 +35,33 @@ Instead of a throwaway notebook, you get:
 ____________________________________________________________________________________________________________
 
 
+# 🔄 MLOps Lifecycle Covered
+
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
+flowchart TB
+    A[Data<br/>Exploration & EDA] --> B[Modular Code<br/>Structure]
+    B --> C[Experiment<br/>Tracking - MLflow]
+    C --> D[FastAPI<br/>Service Layer]
+    D --> E[Streamlit<br/>UI Layer]
+    E --> F[Docker<br/>Containerization]
+    F --> G[Drift<br/>Monitoring]
+    G --> H[Iteration &<br/>Improvement]
+    
+    style A fill:#1e3a5f,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style B fill:#2c4c6b,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style C fill:#3a6a8f,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style D fill:#4a7a9f,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style E fill:#5a8aaf,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style F fill:#1e3a5f,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style G fill:#2c4c6b,stroke:#4a6fa5,stroke-width:3px,color:#fff
+    style H fill:#3a6a8f,stroke:#4a6fa5,stroke-width:3px,color:#fff
+```
+
+____________________________________________________________________________________________________________
+
+
 # Tech Stack & Model
 
 <table style="width:100%; border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden;">
@@ -93,37 +120,10 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________
 
 
-# 🔄 MLOps Lifecycle Covered
-
-
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
-```mermaid
-flowchart TB
-    A[Data<br/>Exploration & EDA] --> B[Modular Code<br/>Structure]
-    B --> C[Experiment<br/>Tracking - MLflow]
-    C --> D[FastAPI<br/>Service Layer]
-    D --> E[Streamlit<br/>UI Layer]
-    E --> F[Docker<br/>Containerization]
-    F --> G[Drift<br/>Monitoring]
-    G --> H[Iteration &<br/>Improvement]
-    
-    style A fill:#1e3a5f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style B fill:#2c4c6b,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style C fill:#3a6a8f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style D fill:#4a7a9f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style E fill:#5a8aaf,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style F fill:#1e3a5f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style G fill:#2c4c6b,stroke:#4a6fa5,stroke-width:3px,color:#fff
-    style H fill:#3a6a8f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-```
-
-
-____________________________________________________________________________________________________________
-
 # System Architecture
 
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
 flowchart LR
     subgraph Client["CLIENT LAYER"]
         A[Web Browser]
