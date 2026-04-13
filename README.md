@@ -95,8 +95,9 @@ ________________________________________________________________________________
 
 # 🔄 MLOps Lifecycle Covered
 
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
-'''Mermaid
 flowchart TB
     A[Data<br/>Exploration & EDA] --> B[Modular Code<br/>Structure]
     B --> C[Experiment<br/>Tracking - MLflow]
@@ -114,14 +115,14 @@ flowchart TB
     style F fill:#1e3a5f,stroke:#4a6fa5,stroke-width:3px,color:#fff
     style G fill:#2c4c6b,stroke:#4a6fa5,stroke-width:3px,color:#fff
     style H fill:#3a6a8f,stroke:#4a6fa5,stroke-width:3px,color:#fff
-'''
+```
 
 
 ____________________________________________________________________________________________________________
 
 # System Architecture
 
-'''Mermaid
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
 flowchart LR
     subgraph Client["CLIENT LAYER"]
@@ -173,7 +174,7 @@ flowchart LR
     style G fill:#2c4c6b,stroke:#4a6fa5,stroke-width:2px,color:#fff
     style H fill:#3a6a8f,stroke:#4a6fa5,stroke-width:2px,color:#fff
     style I fill:#4a7a9f,stroke:#4a6fa5,stroke-width:2px,color:#fff
-'''
+```
 
 
 ____________________________________________________________________________________________________________
