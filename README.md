@@ -96,8 +96,8 @@ ________________________________________________________________________________
 # 🔄 MLOps Lifecycle Covered
 
 
-```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
+```mermaid
 flowchart TB
     A[Data<br/>Exploration & EDA] --> B[Modular Code<br/>Structure]
     B --> C[Experiment<br/>Tracking - MLflow]
@@ -122,8 +122,8 @@ ________________________________________________________________________________
 
 # System Architecture
 
-```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1e3a5f','primaryTextColor':'#fff','primaryBorderColor':'#4a6fa5','lineColor':'#2c4c6b','secondaryColor':'#e8f0fe','tertiaryColor':'#f0f4fa'}}}%%
+```mermaid
 flowchart LR
     subgraph Client["CLIENT LAYER"]
         A[Web Browser]
