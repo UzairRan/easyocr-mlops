@@ -1,0 +1,17 @@
+data:
+  raw_dir: "data/raw"
+  ground_truth_dir: "data/ground_truth"
+  processed_dir: "data/processed"
+
+ocr:
+  languages: ["en", "zh-cn", "hi", "es", "ar", "bn", "pt", "ru", "ja", "pa", "de", "ko", "fr", "tr", "ur", "it", "vi", "ta", "te", "mr", "gu", "kn", "ml"] # EasyOCR language list
+  gpu: false                            # Set true if you have CUDA
+  preprocessing: "none"                 # "none", "grayscale", "threshold"
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"   # or just "mlruns" for local file store
+  experiment_name: "general_ocr_easyocr"
+
+api:
+  host: "0.0.0.0"
+  port: 8000 

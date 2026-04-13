@@ -1,0 +1,34 @@
+LangChain  
+Workflow (linear pipeline):
+
+User input
+
+Prompt template — Format the input
+
+LLM call — Generate response
+
+Output parser — Structure the result
+
+Final answer
+
+Best for: RAG · Q&A · Chatbots
+Steps are known upfront
+
+LangGraph  
+Workflow (ReAct loop):
+
+Reason — LLM thinks what to do
+
+Act — Call the right tool
+
+Observe — Read tool result
+
+Respond or loop — Done, or reason again
+
+(loops back from “Respond or loop” to “Reason”)
+
+Best for: Agents · Tool calling · ReAct
+Steps depend on LLM decisions
+
+Note:  
+LangGraph is built on top of LangChain — use both together.

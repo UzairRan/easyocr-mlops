@@ -1,0 +1,23 @@
+SUM: Adds up values in a range.
+Example: =SUM(A1:A10)
+
+AVERAGE: Calculates the average of values in a range.
+Example: =AVERAGE(B1:B5)
+
+MAX: Returns the maximum value in a range.
+Example: =MAX(C1:C8)
+
+MIN: Returns the minimum value in a range.
+Example: =MIN(D1:D10)
+
+IF: Performs conditional evaluation and returns one value if a condition is true and another value if it's false.
+Example: =IF(E1>10, "Yes", "No")
+
+VLOOKUP: Searches for a value in the leftmost column of a table and returns a value in the same row from a specified column.
+Example: =VLOOKUP(F1, A1:B10, 2, FALSE)
+
+INDEX/MATCH: Returns the value of a cell in a table based on the intersection of a specified row and column.
+Example: =INDEX(A1:B10, MATCH(G1, A1:A10, 0), 2)
+
+COUNTIF: Counts the number of cells within a range that meet a single condition.
+Example: =COUNTIF(C1:C20, ">50")
